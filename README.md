@@ -35,6 +35,7 @@ Interactive historical visualization
 ```
 
 See [docs/architecture.md](docs/architecture.md) for a fuller description of this pipeline.
+See [docs/api.md](docs/api.md) for the currently available backend endpoints.
 
 ## Current milestone
 
