@@ -43,7 +43,7 @@ See [docs/architecture.md](docs/architecture.md) for a fuller description of thi
 Delivered in this milestone:
 
 - Next.js + TypeScript + Tailwind CSS frontend with a landing page
-- FastAPI backend with `GET /health`
+- FastAPI backend with `GET /health` and `GET /info`
 - Project documentation and repository layout
 
 Not included yet:
@@ -93,7 +93,12 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-Health check: [http://localhost:8000/health](http://localhost:8000/health)
+Service checks:
+
+- Health: [http://localhost:8000/health](http://localhost:8000/health)
+- Version and milestone: [http://localhost:8000/info](http://localhost:8000/info)
+
+See [docs/development.md](docs/development.md) for the complete local-development workflow and frontend lint check.
 
 ## Project structure
 
