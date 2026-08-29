@@ -78,7 +78,7 @@ export default function AnalyzeForm() {
           </button>
         </div>
         {submitted ? (
-          <p className="mt-3 text-left text-sm text-muted">
+          <p aria-live="polite" className="mt-3 text-left text-sm text-muted">
             Analysis is not connected yet. This control is a Milestone 1
             placeholder.
           </p>
