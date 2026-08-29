@@ -5,7 +5,7 @@ from app.core.config import APP_NAME, APP_VERSION
 router = APIRouter(tags=["service"])
 
 
-@router.get("/info")
+@router.get("/info", summary="Get service metadata")
 def service_info() -> dict[str, str]:
     """Return the current API version and Milestone 1 service scope."""
     return {
