@@ -59,6 +59,8 @@ Desktop.ini
 # IDE / editor
 .idea/
 .vscode/
+!.vscode/
+!.vscode/settings.json
 *.swp
 *.swo
 *~
