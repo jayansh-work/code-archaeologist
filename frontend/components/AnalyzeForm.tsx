@@ -41,6 +41,7 @@ export default function AnalyzeForm() {
     <section className="mx-auto mt-12 w-full max-w-2xl px-6">
       <form
         onSubmit={handleSubmit}
+        noValidate
         className="rounded-2xl border border-border bg-surface p-5 shadow-[0_24px_80px_rgba(0,0,0,0.35)] sm:p-6"
       >
         <label
